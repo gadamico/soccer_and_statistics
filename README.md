@@ -14,6 +14,6 @@ In the course of our calculations, I develop a function that will count the poss
 
 For a four-team group (as found in the World Cup), the answer to our original question turns out to be 40. There are 40 different possible standings of a four-team group where winning teams earn 3 points and tying teams earn 1.
 
-## Navigation
+## Navigating This Repository
 
 The soccer_and_statistics.ipynb notebook file walks through our problem. It makes use of a few homegrown functions that are stored in the soccer_functions.py Python file inside the counting folder.
