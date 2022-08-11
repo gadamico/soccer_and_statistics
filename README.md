@@ -8,7 +8,7 @@ Very often a group will comprise four teams. For a four-team group, how many dif
 
 This last question is what I want to pursue here. As we shall see, the complexity of this problem grows quickly as we increase the number of teams in our group.
 
-The notebook begins by exploring a simple case of a two-team group and then works up to the more typical cases in international soccer of four- and five-team groups. For a group of $n$ teams, there will be $\binom{n}{2}$ games and, since each game has three possible outcomes (win, lose, or draw), there will therefore be $3^{\bin{n}{2}}$ possible results. But this number counts certain possible final standings multiple times. Most obviously, this number doesn't abstract away from the identities of the teams themselves.
+The notebook begins by exploring a simple case of a two-team group and then works up to the more typical cases in international soccer of four- and five-team groups. For a group of $n$ teams, there will be $\binom{n}{2}$ games and, since each game has three possible outcomes (win, lose, or draw), there will therefore be $3^{\binom{n}{2}}$ possible results. But this number counts certain possible final standings multiple times. Most obviously, this number doesn't abstract away from the identities of the teams themselves.
 
 In the course of our calculations, I develop a function that will count the possible results of a string of games, where each game is represented as a string of possible outcomes (one character per outcome). This function, called "sequences", may be of use whenever we want to construct a list of all possible sequences, where each position in the sequence has a finite number of options.
 
